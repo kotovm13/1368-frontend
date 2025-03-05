@@ -5,18 +5,18 @@
   justify-content: center;
   text-align: center;
 }
-#desktop_navbar {
+#desktop-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#desktop_feature_light_items_container {
+#desktop-feature-light-items-container {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   padding: 20px;
 }
-#desktop_feature_light_item {
+#desktop-feature-light-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,40 +24,41 @@
   width: 200px;
   margin: 0 20px;
 }
-#desktop_hero_ligth_content {
+#desktop-hero-ligth-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-#desktop_hero_ligth_frame_19 {
+#desktop-hero-ligth-frame-19 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
 }
-#desktop_ligth_cta_content {
+#desktop-ligth-cta-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-#desktop_ligth_cta_right_container_text_content {
+#desktop-ligth-cta-right-container-text-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
 }
-#desktop_ligth_cta_right_container_action_content {
+#desktop-ligth-cta-right-container-action-content {
   text-align: left;
 }
-#desktop_pricing_light_items_row {
+#desktop-pricing-light-items-row {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
-#desktop_partner_light_items_row {
+#desktop-partner-light-items-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
