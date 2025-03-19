@@ -1,0 +1,30 @@
+.hero-header {
+  background-image: url("../img/header-background.jpeg");
+
+  .hero-header__navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px;
+
+    .hero-header__navbar__logo {
+      width: 206px;
+      height: 78px;
+      padding-top: 20px;
+      align-items: center;
+    }
+  }
+
+  .hero-header__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 20px;
+
+    .hero-header__text_header {
+      
+    }
+  }
+}
