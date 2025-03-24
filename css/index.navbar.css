@@ -1,10 +1,18 @@
 .hero {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../img/header-background.jpg");
-  background-position: top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.57)),
+    url("../img/header-backround-source.jpeg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(
+    0 0,     /* top-left corner */
+    100% 0,  /* top-right corner */
+    100% 90%,/* right side, partway down */
+    50% 100%,/* bottom center (the "V" point) */
+    0 90%    /* left side, partway down */
+  );
 
   .hero__navbar {
     display: flex;
@@ -33,6 +41,7 @@
     text-align: center;
     color: var(--hero-content-text);
     width: 100%;
+    
 
     .hero__title {
       padding: 10px;
@@ -56,8 +65,8 @@
   .hero__cta {
     width: 100%;
     display: flex;
-    padding: 50px;
     justify-content: center;
+    padding: 59px 0;
 
     a {
       text-decoration: none;
@@ -73,5 +82,10 @@
       background-color: var(--hero-button-primary);
       padding: 16px 0;
     }
+  }
+
+  .hero_padding-bottom {
+    min-height: 128px;
+    min-width: 378px;
   }
 }
