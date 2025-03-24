@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 
 :root {
   /* Colors */
+  --hero-content-text: #FFF;
+  --hero-button-primary: #2091F9;
 
   /* Fonts */
+  --font-primary: 'Agdasima', sans-serif;
 
   /* Text sizes */
 
@@ -19,7 +23,7 @@
   /* Buttons */
 
   /* Containers and margins */
-  --container-width: 1200px;
+  --container-width: 418px;
 }
 
 img {
@@ -30,4 +34,5 @@ img {
 .container {
   max-width: var(--container-width);
   margin: auto;
+  font-family: var(--font-primary);
 }
