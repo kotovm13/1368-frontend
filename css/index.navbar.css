@@ -1,11 +1,10 @@
 .hero {
   display: flex;
   flex-wrap: wrap;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/header-background.jpeg");
+  background-image: url("../img/header-background.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 275%;
+  background-size: cover;
 
   .hero__navbar {
     display: flex;
