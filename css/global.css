@@ -11,8 +11,13 @@
 :root {
   /* Colors */
   --hero-content-text: #FFF;
+  --button-primary: #2091F9;
   --hero-button-primary: #2091F9;
   --color-text: #252B42;
+  --color-text-secondary: #374754;
+  --color-input-border: #E8E8E8;
+  --color-input-background: #F4F4F4;
+  --color-input-placeholder: #18171D;
 
   /* Fonts */
   --font-primary: 'Agdasima', sans-serif;
