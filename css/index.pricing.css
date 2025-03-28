@@ -1,0 +1,156 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 28px;
+  gap: 80px;
+  background-color: var(--dark-background);
+  text-align: center;
+
+  .pricing__header {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: var(--hero-content-text);
+
+    .pricing__header-title {
+      padding: 10px;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 55px; /* 114.583% */
+      letter-spacing: 0.2px;
+    }
+
+    .pricing__header-description {
+      padding: 10px;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 142.857% */
+      letter-spacing: 0.2px;
+    }
+  }
+
+  .pricing__plans {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 18px 0;
+
+    .pricing__plan {
+      display: flex;
+      flex-direction: column;
+      padding: 40px;
+      gap: 30px;
+      border-radius: 10px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 255px;
+      border: 1px solid var(--border-grey);
+      box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+
+      .pricing__plan-details {
+        width: 144px;
+
+        .pricing__plan-title {
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px; /* 140% */
+          letter-spacing: 0.1px;
+        }
+
+        .pricing__plan-description {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23px; /* 143.75% */
+          letter-spacing: 0.1px;
+        }
+      }
+
+      .pricing__plan-price {
+        display: flex;
+        text-align: start;
+        justify-content: center;
+
+        .pricing__plan-price-number {
+          font-size: 74px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 84px; /* 113.514% */
+          letter-spacing: 0.2px;
+        }
+
+        .pricing__plan__price-description {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 10px;
+
+          .pricing__plan__price-currency {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px; /* 140% */
+            letter-spacing: 0.1px;
+          }
+
+          .pricing__plan__price-period {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px; /* 143.75% */
+            letter-spacing: 0.1px;
+          }
+        }
+      }
+
+      .pricing__plan-features {
+        list-style: none;
+
+        .pricing__plan-feature {
+          padding: 10px;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 186.667% */
+          letter-spacing: 0.2px;
+        }
+      }
+    }
+
+    .pricing__plan-button {
+      padding: 18px 38px;
+      border-radius: 35px;
+      border: none;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 20px; /* 100% */
+      letter-spacing: 0.2px;
+    }
+  }
+}
+
+.standart-card {
+  background-color: var(--light-background);
+
+  button {
+    background-color: var(--button-primary);
+    color: var(--hero-content-text);
+  }
+}
+
+.inverse-card {
+  background-color: var(--blue-background);
+  color: var(--hero-content-text);
+
+  button {
+    background-color: var(--button-white);
+    color: var(--color-text-blue);
+  }
+}
