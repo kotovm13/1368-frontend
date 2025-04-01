@@ -23,7 +23,7 @@
       letter-spacing: 0.2px;
     }
 
-    .features__subheader {
+    .features__subheader-mobile {
       color: var(--color-text-secondary);
       padding: 10px;
       font-size: 28px;
@@ -80,8 +80,47 @@
       }
     }
   }
+}
 
-  .newsletter__form {
-    
+@media (min-width: 768px) {
+  .features {
+    .features__text-content {
+      width: 100%;
+      .features__subheader-mobile {
+        display: none;
+      }
+
+      .features__subheader-desktop {
+        color: var(--color-text-secondary);
+        padding: 10px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 142.857% */
+        letter-spacing: 0.2px;
+      }
+    }
+
+    .features__video {
+      padding: 52px 0;
+      width: 100%;
+      order: 1;
+
+      iframe {
+        width: 75%;
+        height: 658px;
+      }
+    }
+
+    .features__cards {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 52px;
+
+      .features__card {
+        gap: 10px;
+      }
+    }
   }
 }
