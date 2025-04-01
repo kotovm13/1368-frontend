@@ -25,7 +25,10 @@
   --light-background: #fff;
   --blue-background: #2091f9;
   --border-grey: #dedede;
-  
+  --border-form-white: #ddd;
+  --border-input: #e8e8e8;
+  --background-input: #e8e8e8;
+
   /* Fonts */
   --font-primary: "Agdasima", sans-serif;
 
