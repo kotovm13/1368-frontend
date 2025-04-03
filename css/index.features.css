@@ -84,6 +84,7 @@
 
 @media (min-width: 768px) {
   .features {
+    padding-top: 80px;
     .features__text-content {
       width: 100%;
       .features__subheader-mobile {
