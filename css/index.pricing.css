@@ -154,3 +154,17 @@
     color: var(--color-text-blue);
   }
 }
+
+@media (min-width: 768px) {
+  .pricing__plans {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .inverse-card {
+    padding: 83px 40px !important;
+  }
+}
