@@ -179,11 +179,11 @@
           padding: 0;
 
           .newsletter__form-input {
-            width: 55%;
+            width: 50%;
           }
 
           .newsletter__form-button {
-            width: 40%;
+            width: 45%;
           }
         }
       }
