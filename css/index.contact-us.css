@@ -154,7 +154,6 @@
       display: grid;
       grid-template-columns: 1fr 1.5fr;
       grid-template-rows: 1fr 3fr 0.5fr;
-      
 
       .contact-us__form {
         order: 1;
@@ -168,23 +167,25 @@
         flex-direction: row;
         width: fit-content;
         text-align: center;
-       
+
         .contact-us__contacts-item {
           display: flex;
           flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
       }
 
       .contact-us__map {
         display: flex;
         order: 3;
-        
+
         iframe {
           width: 100%;
           height: 100%;
           border: 0;
           border-radius: 48px;
-          }
+        }
       }
 
       .contact-us__socials {

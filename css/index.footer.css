@@ -6,7 +6,11 @@
   align-items: center;
   gap: 76px;
 
-  .footer__authors {
+  .footer__authors-desktop {
+    display: none;
+  }
+
+  .footer__authors-mobile {
     display: flex;
     flex-direction: column;
     gap: 73px;
@@ -40,6 +44,11 @@
           font-weight: 400;
           line-height: 28px; /* 186.667% */
           letter-spacing: 0.2px;
+
+          a {
+            text-decoration: none;
+            color: var(--hero-content-text);
+          }
         }
       }
     }
@@ -69,10 +78,83 @@
     }
 
     .footer__contacts-socials {
+      display: flex;
+      gap: 24px;
+      padding: 20px 0;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 125px;
+    justify-content: center;
+    align-items: center;
+
+    .footer__authors-mobile {
+      display: none;
+    }
+
+    .footer__authors-desktop {
+      display: flex;
+      justify-content: flex-start;
+      text-align: start;
+      gap: 20px;
+
+      .footer__author {
         display: flex;
-        gap: 24px;
-        padding: 20px 0;
-        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 150px;
+
+        .footer__author-name {
+          padding: 10px 0;
+          color: var(--hero-content-text);
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px; /* 140% */
+          letter-spacing: 0.1px;
+        }
+
+        .footer__author-list {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          .footer__author-list-item {
+            color: var(--hero-content-text);
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 186.667% */
+            letter-spacing: 0.2px;
+
+            a {
+              text-decoration: none;
+              color: var(--hero-content-text);
+            }
+          }
+        }
+      }
+    }
+
+    .footer__authors {
+      flex-direction: row;
+      justify-content: flex-start;
+      text-align: start;
+    }
+
+    .footer__contacts {
+      justify-content: flex-start;
+      width: max-content;
+
+      .footer__contacts-socials {
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: min-content;
+      }
     }
   }
 }
